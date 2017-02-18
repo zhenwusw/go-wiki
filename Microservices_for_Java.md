@@ -37,3 +37,5 @@
 
 - How do we make configuration changes across a large fleet of services?
 
+- How do we make changes to our application code and configu‐ ration in a safe, auditable, repeatable manner?
+
