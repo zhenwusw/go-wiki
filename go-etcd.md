@@ -34,8 +34,7 @@ ETCD_INITIAL_CLUSTER_STATE=new
 ```
 
 
-
-3. 关键部分源码分析
+3 关键部分源码分析
 
  载入配置参数: `etcdmain/etcd.go`
  
@@ -48,7 +47,6 @@ ETCD_INITIAL_CLUSTER_STATE=new
  在etcdmain/etcd.go中的setupCluster函数可以看到，根据不同etcd的参数，启动集群的方法略有不同
 
 
-
 Leader节点在提交一个写记录时，会把这个消息同步到每个节点上，当得到多数节点的同意反馈后，才会真正写入数据。所以节点越多，写入性能越差。
 
 当集群超过半数的节点都失效时，就需要通过手动的方式，强制性让某个节点以自己为Leader，利用原有数据启动一个新集群。
@@ -57,8 +55,7 @@ Leader节点在提交一个写记录时，会把这个消息同步到每个节�
 5 Proxy 模式
 
 
-
-
+<img _href="img://null" _p="true" src="http://cdn.infoqstatic.com/statics_s1_20170214-0417_2/resource/articles/etcd-interpretation-application-scenario-implement-principle/zh/resources/0129011.jpg" width="500">
 
 
 
