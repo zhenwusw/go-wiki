@@ -6,5 +6,7 @@
   
 - 标准库文档
   + [中文](http://blog.huangz.me/2017/go-stdlib-container-list.html)
+  + [Go walkthrough](https://medium.com/go-walkthrough)
   
 - [Awesome-go](https://github.com/avelino/awesome-go)
+
