@@ -10,3 +10,4 @@
   
 - [Awesome-go](https://github.com/avelino/awesome-go)
 
+- [再谈CERL：详论GO与ERLANG的并发编程模型差异](http://blog.qiniu.com/archives/1059)
