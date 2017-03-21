@@ -1,7 +1,7 @@
 # go-wiki
 
 - Watchlist
-  + [书：深入解析Go](https://www.gitbook.com/book/tiancaiamao/go-internals/details)
+  + [书：深入解析Go](https://www.gitbook.com/book/tiancaiamao/go-internals/details)
 
 - 微服务实践
   + [事件驱动数据管理](/microservice/data-driven-management)
